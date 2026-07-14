@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karen Van Audenhaege — Director of Product Management</title>
+  <meta name="description" content="Product leader with 10+ years in data platforms and a PhD in Biomedical Engineering. Portfolio: experience, skills, credentials and side projects.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="layout">
+
+    <aside class="sidebar" id="sidebar">
+      <div class="identity">
+        <div class="avatar" id="avatar"></div>
+        <h1 id="name"></h1>
+        <p class="title" id="title"></p>
+        <p class="location" id="location"></p>
+        <p class="availability" id="availability"></p>
+      </div>
+
+      <nav class="nav" id="nav">
+        <a href="#overview">Overview</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#credentials">Credentials</a>
+        <a href="#builds">Builds</a>
+      </nav>
+
+      <div class="sidebar-block">
+        <h2 class="label">Contact</h2>
+        <div class="contact-links" id="contact-links"></div>
+      </div>
+
+      <div class="sidebar-block">
+        <h2 class="label">Languages</h2>
+        <ul class="languages" id="languages"></ul>
+      </div>
+    </aside>
+
+    <main class="main">
+
+      <section id="overview" class="section">
+        <p class="tagline" id="tagline"></p>
+        <div class="metrics" id="metrics"></div>
+      </section>
+
+      <section id="experience" class="section">
+        <h2>Experience</h2>
+        <div class="filters" id="filters"></div>
+        <div id="experience-list"></div>
+      </section>
+
+      <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills" id="skills-list"></div>
+      </section>
+
+      <section id="credentials" class="section">
+        <h2>Credentials</h2>
+        <div class="credentials" id="credentials-list"></div>
+        <h3 class="subheading">Speaking &amp; visibility</h3>
+        <ul class="speaking" id="speaking-list"></ul>
+      </section>
+
+      <section id="builds" class="section">
+        <h2>Builds</h2>
+        <p class="section-intro">Side projects I designed, built and run myself — small-scale proof of the hands-on habits I bring to platform product work.</p>
+        <div class="builds" id="builds-list"></div>
+      </section>
+
+      <footer class="footer" id="footer"></footer>
+
+    </main>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
