@@ -141,7 +141,7 @@ const DATA = {
       name: "WhaleMap",
       emoji: "🐋",
       description: "Interactive Leaflet map of the last month of whale sightings worldwide, refreshed daily from open GBIF biodiversity data by a scheduled serverless function.",
-      why: "Built to explore live open-data pipelines end-to-end — the same ingest-to-map chain I manage at platform scale, at hobby scale.",
+      why: "My first experiment with Claude Code — nothing more, nothing less.",
       liveUrl: "https://whalemap.world/",
       repoUrl: "", // TODO: add GitHub URL once repo moved to personal account
       image: "images/whalemap.png", // TODO: add screenshot
@@ -150,7 +150,7 @@ const DATA = {
       name: "Word Practice",
       emoji: "✨",
       description: "A bilingual (English & Afrikaans) spelling-practice web app for kids, with emoji hints and automatic text-to-speech via a serverless worker.",
-      why: "Built for my own family — and to stay hands-on with AI-assisted development, serverless APIs and shipping something real users nag you about.",
+      why: "Built with my son to make his daily spelling practice fun — and to teach him the basics of product management along the way: writing requirements, formulating them unambiguously, testing, user experience, and how to prompt.",
       liveUrl: "https://karenvanaudenhaege-tomtom.github.io/homework/",
       repoUrl: "", // TODO: add GitHub URL once repo moved to personal account
       image: "images/wordpractice.png", // TODO: add screenshot
