@@ -226,8 +226,7 @@ function renderBuilds() {
 /* ---------- Footer & nav highlight ---------- */
 
 function renderFooter() {
-  $("footer").innerHTML =
-    `© ${new Date().getFullYear()} ${DATA.profile.name} · hand-built with plain HTML, CSS and JavaScript — no frameworks, no trackers.`;
+  $("footer").innerHTML = `© ${new Date().getFullYear()} ${DATA.profile.name}`;
 }
 
 function observeNav() {

@@ -5,7 +5,7 @@ const DATA = {
     title: "Director of Product Management",
     tagline:
       "Product leader with 10+ years in data platforms and a PhD in Biomedical Engineering. " +
-      "I bring calm structure to ambiguous, high-scale problems — translating complexity into " +
+      "I bring calm structure to ambiguous, high-scale problems, translating complexity into " +
       "clear priorities, measurable targets, and reliable delivery, while coaching PMs through " +
       "growth and performance.",
     location: "Cape Town, South Africa",
