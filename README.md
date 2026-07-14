@@ -9,6 +9,11 @@ credentials, builds, contact links. Edit that file, refresh the browser, done.
 `index.html`, `styles.css` and `app.js` only need touching for layout or style
 changes.
 
+**Before every push:** bump the `?v=N` version number on the three asset links
+in `index.html` (styles.css, data.js, app.js) so browsers fetch the new files
+instead of cached ones. GitHub Pages also caches pages for 10 minutes, so a
+change can take up to 10 minutes to appear even after the push.
+
 ## Previewing locally
 
 Open `index.html` in any browser. No server needed.
